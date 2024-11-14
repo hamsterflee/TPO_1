@@ -31,7 +31,7 @@ jobs:
         run: pytest TestSolveQuadratic.py
           
       - name: Run tests with coverage
-        run: coverage run -m pytest test_quadratic_roots.py  
+        run: coverage run -m pytest TestSolveQuadratic.py
           
       - name: Generate coverage report
         run: coverage xml  
