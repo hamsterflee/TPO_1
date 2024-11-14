@@ -48,3 +48,14 @@ jobs:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
       run: |
         coveralls
+
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  
+      with:
+        args: >
+          -Dsonar.projectKey=hamsterflee_TPO_1
+          -Dsonar.organization=hamsterflee
+          -Dsonar.sources=.
+          -Dsonar.python.coverage.reportPaths=coverage.xml
