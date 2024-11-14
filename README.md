@@ -1,3 +1,7 @@
+[![Python CI](https://github.com/hamsterflee/TPO_1/actions/workflows/main.yml/badge.svg)](https://github.com/hamsterflee/TPO_1/actions/workflows/main.yml)
+[![Coverage Status](https://coveralls.io/repos/github/hamsterflee/TPO_1/badge.svg)](https://coveralls.io/github/hamsterflee/TPO_1)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=hamsterflee_TPO_1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=hamsterflee_TPO_1)
+
 # План тестирования
 
 ### Тест 1: Два вещественных корня (Позитивный)
